@@ -1,7 +1,7 @@
 const loveButton = document.getElementById("loveButton");
 
 loveButton.addEventListener("click", () => {
-  alert("Спасибо, Анечка! Я очень рад!");
+  alert("Люблю тебя:> ");
 });
 
 if ('serviceWorker' in navigator) {
