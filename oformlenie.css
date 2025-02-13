@@ -57,3 +57,8 @@ button {
 button:hover {
   background-color: #c2185b;
 }
+button:hover {
+  background-color: #c2185b;
+  transform: scale(1.1); /* Небольшое увеличение при наведении */
+  transition: transform 0.2s ease-in-out; /* Плавный переход */
+} 
