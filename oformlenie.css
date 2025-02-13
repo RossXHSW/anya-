@@ -1,14 +1,55 @@
 body {
   font-family: sans-serif;
-  background-color: #fce4ec; /* Цвет фона на случай, если изображение не загрузится или не заполнит весь фон */
-  background-image: url("2.jpg"); /* Путь к вашей фотографии (ОБНОВЛЕНО) */
-  background-size: cover; /* Масштабировать изображение, чтобы заполнить весь фон */
-  background-position: center center; /* Центрировать изображение по горизонтали и вертикали */
-  background-repeat: no-repeat; /* Не повторять изображение */
+  background-color: lightblue; /* Измененный фон */
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   text-align: center;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+}
+
+h1 {
+  color: #e91e63; /* Ярко-розовый цвет */
+}
+
+img {
+  max-width: 200px;
+  margin: 20px auto;
+  display: block;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.from {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c2185b;
 }
