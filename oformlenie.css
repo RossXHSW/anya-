@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif; /* Применяем шрифт Roboto */
-  background-color: lightblue; /* Измененный фон */
+  background: linear-gradient(to bottom, #D8BFD8, #800080); /* Фиолетовый градиент */
   margin: 0;
   display: flex;
   justify-content: center;
@@ -56,9 +56,6 @@ button {
 
 button:hover {
   background-color: #c2185b;
-}
-button:hover {
-  background-color: #c2185b;
   transform: scale(1.1); /* Небольшое увеличение при наведении */
   transition: transform 0.2s ease-in-out; /* Плавный переход */
-} 
+}
