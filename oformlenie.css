@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif; /* Применяем шрифт Roboto */
+  font-family: 'Roboto Slab', serif; /* Используем Roboto Slab */
   background: linear-gradient(to bottom, #D8BFD8, #800080); /* Фиолетовый градиент */
   margin: 0;
   display: flex;
